@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ptBR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMULÁRIO</title>
+</head>
+<body>
+    <from action="teste.php" method="get">
+        <h1>Cadastrar Usuário</h1>
+
+        <!--Dados Pessoais-->
+        <fieldset>
+            <legend><span>1- </span>Dados Pessoais</legend>
+
+            <label for="txtnome">Nome:</label>
+            <input type="text" name="nome" id="txtnome">
+
+            <label for="txtemail">Email:</label>
+            <input type="email" name="email" id="txtemail">
+
+            <label for="txtsenha">Senha:</label>
+            <input type="password" name="senha" id="txtsenha">
+            
+            <label for="">Idade:</label>
+            <input type="radio" name="acima_17" id="acima_17">
+            <label for="acima_17">Acima 17</label>
+            <input type="radio" name="abaixo_17" id="abaixo_17">
+            <label for="abaixo_17">Abaixo 17</label>
+        </fieldset>
+
+        <fieldset>
+            <legend><span>2- </span>Perfil</legend>
+
+            <label for="txtdescricao">Descrição</label>
+            <textarea name="descricao" id="txtdescricao" cols="30" rows="10"></textarea>
+
+            <label for="ddltrabalho">Perfil Trabalho:</label>
+            <select name="trabalho" id="ddltrabalho">
+                <optgroup label="Web">
+                    <option value="frontend">Frontend</option>
+                    <option value="PHP">PHP developer</option>
+                    <option value="react">React developer</option>
+                </optgroup>
+
+                <optgroup label="Mobile">
+                    <option value="android">Android developer</option>
+                    <option value="flutter">Flutter developer</option>
+                </optgroup>
+            </select>
+
+            <label for="">Interesses: </label>
+            <label for="">Programador</label>
+            <input type="checkbox" name="programador" id="programador">
+            <label for="">Design</label>
+            <input type="checkbox" name="designer" id="designer">
+            <label for="">Analista</label>
+            <input type="checkbox" name="analista" id="analista">
+
+        </fieldset>
+
+    </from>
+    
+</body>
+</html>
