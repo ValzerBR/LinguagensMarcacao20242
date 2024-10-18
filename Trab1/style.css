@@ -1,0 +1,23 @@
+.centrovermelho{
+    color:blue;
+}
+.centro{
+    text-align: center;
+}
+.titulo{
+    background-color:#D8EDE8;
+}
+p{
+    font-family: Verdana;
+}
+ol{
+    list-style-type: upper-alpha;
+}
+.contatos{
+    background-color: #D8EDE8;
+    text-align: left;
+}
+.minhadiv{
+    background-color: #ECECEC;
+
+}
