@@ -4,7 +4,7 @@
 .centro{
     text-align: center;
 }
-.titulo{
+h2{
     background-color:#D8EDE8;
 }
 p{
@@ -19,5 +19,9 @@ ol{
 }
 .minhadiv{
     background-color: #ECECEC;
+
+}
+h2:hover{
+    background-color: blue;
 
 }
