@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence&display=swap');
+
+body{
+    background-color:#3F401E;
+}
+.container{
+    background-color:#FFFFFF;
+    width: 960px;
+    margin: auto;
+}
+header{
+    background-color: #C1D4DA;
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 40px;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0,
+    "XELA" 0,
+    "YELA" 0;
+}
+footer{
+    background-color: #C1D4DA;
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+#tam{
+    width: 960px;
+}
