@@ -18,15 +18,24 @@
         </ol>
         </nav>
         <section>
-            <h1>Bem Vindo</h1>
-            <img src="img/foto.png" alt="Minha Foto" id="tam">
-            <p>Blog para debate sobre mundo dos games e respectivas notícias.</p>
-            <p>Algumas Recomendações:</p>
-            <ol>
-                <li><a href="https://www.reachthefinals.com/">The Finals</a></li>
-                <li><a href="https://www.newworld.com/pt-br/">New World</a></li>
-                <li><a href="https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/">The Elder Scrolls V: Skyrim</a></li>
-            </ol>
+            <fieldset>
+                <legend><h1>Formulário de Contato</h1></legend>
+                <form>
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+                    <div>
+                        <label for="tel">Telefone:</label>
+                        <input type="tel" id="tel" name="tel">
+                    </div>
+                    <div>
+                        <label for="desc">Descrição:</label>
+                        <div><textarea name="desc" rows="17"></textarea></div>
+                    </div>
+                    <div><input type="submit" value="Enviar"></div>
+                </form>
+            </fieldset>
         </section>
         <footer>
             <p>Serra, Morada de Laranjeiras  Phone: 27 99999-9999</p>
