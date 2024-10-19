@@ -31,3 +31,32 @@ a{
 #tam{
     width: 960px;
 }
+table{
+    text-align: center;
+    height: 400px;
+    border: 2px solid;
+    margin: auto;
+}
+.imgtbl{
+    border-radius: 25px;
+    width: 100%;
+}
+th{
+    text-align: left;
+    vertical-align: middle;
+    border-bottom-width: 1px;
+    border-bottom: solid;
+    border-bottom-color:#ddd;
+    padding: 10px;
+}
+td{
+    text-align: left;
+    vertical-align: middle;
+    border-bottom-width: 1px;
+    border-bottom: solid;
+    border-bottom-color:#ddd;
+    padding: 10px;
+}  
+tr:hover{
+    background-color:#F3EAE5;
+}
