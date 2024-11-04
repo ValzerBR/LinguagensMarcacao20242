@@ -1,0 +1,28 @@
+fieldset{
+    background-color: #C6E7FF;
+    padding: 1%;
+}
+table{
+    border: 1px, solid, #ccc;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    table-layout: fixed;
+}
+h1{
+    font-size: 1.6rem;
+    text-align: center;
+}
+tr{
+    background-color: #f8f8f8;
+    border: 1px, solid, #ddd;
+    margin: 0.3rem;
+    text-align: center;
+}
+tr:hover{
+    background-color: #ddd;
+}
+th,td{
+    font-size: 1rem;
+    text-transform: uppercase;
+}
