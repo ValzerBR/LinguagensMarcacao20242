@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" title="Games Blog">
+    <title>Cadastro de usuário</title>
+</head>
+<body class="nunito">
+    <form>
+        <h1>Cadastrar Usuário</h1>
+        <div>
+            <h2><span>1</span>Dados Pessoais</h2>
+
+            <div><label for="nome">Nome:</label></div>
+            <input type="text" id="nome" name="nome"></div>
+
+            <label for="email">Email:</label>
+            <div><input type="email" id="email" name="email"></div>
+
+            <label for="senha">Senha:</label>
+            <div><input type="password" id="senha" name="senha"></div>
+
+            <label for="senha">Confirmar Senha:</label>
+            <div><input type="password" id="confimar-senha" name="confirmar-senha"></div>
+
+            <p>Idade:</p>
+
+            <div class="check">
+                <input type="radio" id="acima-17" name="idade" value="acima-17">
+                <label for="acima-17">Acima 17</label>
+            </div>
+
+            <div class="check">
+                <input type="radio" id="abaixo-17" name="idade" value="abaixo-17">
+                <label for="abaixo-17">Abaixo ou igual 17</label>
+            </div>
+        </div>
+        <div>
+            <h2><span>2</span>Perfil</h2>
+            <label for="descricao">Descrição:</label>
+            <div><textarea id="descricao" name="descricao"></textarea></div>
+
+            <label for="perfil-trabalho">Perfil Trabalho:</label>
+            <select id="perfil-trabalho" name="perfil-trabalho">
+                <option>Front-End Developer</option>
+                <option>Back-End Developer</option>
+                <option>Full Stack Developer</option>
+                <option>Data Scientist</option>
+            </select>
+
+            <p>Interesses:</p>
+            <div>
+                <input type="checkbox" id="programador" name="interesses" value="programador">
+                <label for="programador">Programador</label><br>
+                <input type="checkbox" id="design" name="interesses" value="design">
+                <label for="design">Design</label><br>
+                <input type="checkbox" id="analista" name="interesses" value="analista">
+                <label for="analista">Analista</label>
+            </div>
+
+            <button type="submit">Enviar Dados</button>
+        </div>
+    </form>
+</body>
+</html>

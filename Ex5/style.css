@@ -4,8 +4,8 @@ fieldset{
 }
 table{
     border: 1px, solid, #ccc;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     width: 100%;
     table-layout: fixed;
 }

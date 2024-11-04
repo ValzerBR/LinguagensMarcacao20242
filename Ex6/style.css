@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+form{
+    width: 30vw;
+    margin: 10px, auto;
+    padding: 10px, 20px;
+    border-radius: 8px;
+    background-color: #F3F7F8;
+    display: inline-block;
+    box-sizing: border-box;
+}
+input[type="text"],input[type="password"], input[type="email"], textarea, select{
+    border: 0;
+    font-size: 1rem;
+    margin: 0;
+    padding: 15px;
+    outline: 0;
+    height: auto;
+    box-shadow: 1px, 0;
+    width: 90%;
+    background-color: #E8EDF0;
+    resize: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+input:hover, textarea:hover, select:hover{
+    background-color: #B9D4DF;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+.check{
+    display: inline-block;
+}
+button{
+    width: 90%;
+    padding: 10px;
+    background-color: #36c36a;
+    border-radius: 8px;
+    border: 0;
+    color: white;
+    font-size: 1.2rem;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+}
+span{
+    margin-right: 10px;
+    background-color: #36c36a;
+    border-radius: 50%;
+    padding-right: 12px;
+    padding-left: 12px;
+    color: white;
+}
+h1{
+    font-size: 2.5rem;
+}
