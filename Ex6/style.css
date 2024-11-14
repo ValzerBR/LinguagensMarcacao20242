@@ -32,10 +32,6 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
     border-radius: 8px;
 }
 
-input[type="text"]::placeholder, input[type="password"]::placeholder, input[type="email"]::placeholder, textarea::placeholder {
-    color: #9E9E9E;
-}
-
 input[type="text"]:hover, input[type="password"]:hover, input[type="email"]:hover, textarea:hover, select:hover {
     background-color: #3A3A3A;
 }
