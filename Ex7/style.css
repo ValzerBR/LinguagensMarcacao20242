@@ -24,3 +24,9 @@ p{
     color: black;
     z-index: 999;
 }
+.wpp{
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    width: 6%;
+}
