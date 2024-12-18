@@ -35,3 +35,13 @@ a{
 .menu li a{
     padding: 5 px;
 }
+body{ 
+    height:100vh; 
+    display:flex;
+    flex-direction:column;
+}
+header{ min-height:50px; }
+footer{ 
+    min-height:50px; 
+    margin-top:auto;
+}
