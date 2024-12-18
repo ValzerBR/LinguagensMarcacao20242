@@ -44,4 +44,31 @@ header{ min-height:50px; }
 footer{ 
     min-height:50px; 
     margin-top:auto;
+    background-color: aquamarine;
+}
+form{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.imagem{
+    width: 90%;
+}
+section{
+    text-align: center;
+    padding: 0 20%;
+}
+h1{
+    margin: 4% 0 2%;
+    font-style: italic;
+    font-family: 'Georgia', serif;
+    font-size: 2.5rem;
+}
+footer{
+    text-align: center;
+}
+.item {
+    max-width: 12vw;
+    margin: 1.4% 1%;
 }
